@@ -11,7 +11,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thymeleaf.version>3.0.0-SNAPSHOT</thymeleaf.version>
     </properties>
 	
     <dependencies>
@@ -26,7 +25,7 @@
         <dependency>
             <groupId>org.thymeleaf</groupId>
             <artifactId>thymeleaf</artifactId>
-            <version>${thymeleaf.version}</version>
+            <version>3.0.0.BETA01</version>
         </dependency>
     </dependencies>
 
