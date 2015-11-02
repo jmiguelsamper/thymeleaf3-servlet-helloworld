@@ -25,7 +25,7 @@ public class ThymeleafConfig implements ServletContextListener {
 
     private TemplateEngine templateEngine(ServletContext servletContext) {
         TemplateEngine engine = new TemplateEngine();
-        engine.addTemplateResolver(templateResolver(servletContext));
+        engine.setTemplateResolver(templateResolver(servletContext));
         return engine;
     }
 
